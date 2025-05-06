@@ -11,5 +11,13 @@ public:
 
 class LinkedList
 {
-    
+    node *start;
+
+public :
+    LinkedList()
+    {
+        start = NULL;
+    }
+
+
 };
