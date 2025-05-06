@@ -53,4 +53,9 @@ public :
             current = current->next;
         }
     }
+    bool listempty()
+    {
+        return (start == NULL);
+    }
+
 };
