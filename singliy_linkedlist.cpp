@@ -57,6 +57,10 @@ public :
     {
         return (start == NULL);
     }
+    bool Search (int nim,node **previous, node **current)
+    {
+        *previous=start;
+        *current = start;
 
         while ((*current !=NULL)&&(nim != (*current)->noMhs))
         {
